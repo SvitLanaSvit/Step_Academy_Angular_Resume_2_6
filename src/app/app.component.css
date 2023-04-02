@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.leftContainer{
+  width: 30%;
+  background-color: #ddd;
+}
+
+.infoMain{
+  margin: 20px 0;
+}
+
+.info{
+  margin: 20px 0 0 40px;
+}
+
+.education, .skills, .language{
+  padding-top: 15px;
+}
+
+.leftContainer p{
+  font-size: 12px;
+}
+
+.rightContainer{
+  width: 70%;
+  margin: 40px 20px;
+}
+
+.rightContainer p{
+  font-size: 14px;
+}
+
+.main{
+  display: flex;
+}
+
+p{
+  text-align: justify;
+}
+
+h1, h2, h3, h4, p, a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dist{
+  margin-top: 5px;
+}
+
+.jobDist{
+  margin-top: 10px;
+}
+
+h1{
+  margin-bottom: 2px;
+}
+
+.aboutMS h2{
+  margin-bottom: 5px;
+}
+
+.reference{
+  padding-top: 10px;
+}
+
+.mainExpRef{
+  margin-top: 5px;
+}
+
+.ref{
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+
+.refDiv{
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.refDiv:hover a{
+  font-size: 20px;
+  text-decoration: underline;
+  color: blue;
+}
+
+.skillsParts{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillsSecond{
+  margin-left: 20px;
+}
