@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   fullname: string = 'Svitlana Kizilpinar';
   title: string = 'Software developer';
-  aboutMySelf: string = 'You can only see me as a purposeful, reliable, responsible and hardworking person. I like to work in a team, as I had experience in developing a project in a team, as well as experience working in a team with subordinates from a regular job. She also worked on projects independently. I am a stress-resistant person and I have a clear understanding of meeting deadlines, as I also had deadlines at work in my previous job. My goal is to develop as a developer as best as possible, and to make a great contribution to the work. There is no final point of development in this area and this is exactly what I need, namely to move forward and towards improvements.';
+  aboutMySelf: string = 'You can only see me as a purposeful, reliable, responsible and hardworking person. I like to work in a team, as I had experience in developing a project in a team, as well as experience working in a team with subordinates from a regular job. I also worked on projects independently. I am a stress-resistant person and I have a clear understanding of meeting deadlines, as I also had deadlines at work in my previous job. My goal is to develop as a developer as best as possible, and to make a great contribution to the work. There is no final point of development in this area and this is exactly what I need, namely to move forward and towards improvements.';
   fotoUrl: string = '../assets/MyFoto.jpg';
   titleContact: string[] = ['Contact', 'Education', 'Skills', 'Language'];
   contact: Contact[] = [
