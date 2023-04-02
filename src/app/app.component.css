@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.color{
+  position: absolute;
+  width: 31%;
+  height: 132%;
+  background-color: #ddd;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
 .wrapper{
   max-width: 1000px;
   margin: 20px auto;
@@ -11,7 +21,6 @@
 
 .leftContainer{
   width: 30%;
-  background-color: #ddd;
 }
 
 .infoMain{
