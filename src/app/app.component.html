@@ -28,12 +28,12 @@
             <h2>{{titleContact[2]}}</h2>
             <hr>
             <div class="skillsParts">
-              <div class="dist">
+              <div class="dist" *ngIf="showInfo">
                 <div *ngFor="let skill of skillsFirst">
                   <p>&bull; {{skill}}</p>
                 </div>
               </div>
-              <div class="dist">
+              <div class="dist" *ngIf="showInfo">
                 <div *ngFor="let skill of skillsSecond" class="skillsSecond">
                   <p>&bull; {{skill}}</p>
                 </div>
@@ -63,7 +63,7 @@
         <div class="experience">
           <h2>{{rigthTitles[0]}}</h2>
           <hr>
-          <div class="jobDist">
+          <div class="jobDist" *ngIf="showInfo">
             <div *ngFor="let exp of experiences" class="dist">
               <h3 class="jobDist">{{exp.date}}</h3>
               <p>{{exp.company}}</p>
@@ -82,6 +82,10 @@
             <img src={{reference.qr}} alt="{{reference.title}}" [class.qr]="true">
           </div>
         </div>
+      </div>
+      <div class="button">
+        <button (click)="show()">Show skills and Experience</button>
+        <button (click)="hidden()">Hidden skills and Experience</button>
       </div>
     </div>
   </div>
